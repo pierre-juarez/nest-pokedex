@@ -1,2 +1,37 @@
 ### 
 GET http://localhost:3000
+
+### All Pokemons
+GET http://localhost:3000/api/v2/pokemon
+
+### Get a Pokemon by ID
+GET http://localhost:3000/api/v2/pokemon/1
+
+### Create a Pokemon
+POST http://localhost:3000/api/v2/pokemon
+Content-Type: application/json
+
+{
+  "name": "Pikachu",
+  "description": "Rattata's cousin",
+  "type": "electric",
+  "attack": 55,
+  "defense": 40,
+  "height": 0.4
+}
+
+### Update a Pokemon
+PATCH http://localhost:3000/api/v2/pokemon/1
+Content-Type: application/json
+
+{
+  "name": "Pikachu",
+  "description": "Rattata's cousin",
+  "type": "electric",
+  "attack": 55,
+  "defense": 40,
+  "height": 0.4
+}
+
+### Delete a Pokemon
+DELETE http://localhost:3000/api/v2/pokemon/1
