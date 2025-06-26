@@ -5,15 +5,15 @@ GET http://localhost:3000
 GET http://localhost:3000/api/v2/pokemon
 
 ### Get a Pokemon by ID
-GET http://localhost:3000/api/v2/pokemon/1
+GET http://localhost:3000/api/v2/pokemon/685cc8e53e58169bd5726923
 
 ### Create a Pokemon
 POST http://localhost:3000/api/v2/pokemon
 Content-Type: application/json
 
 {
-  "no": 3,
-  "name": "Pikachu3"
+  "no": 6,
+  "name": "Charmander"
 }
 
 ### Update a Pokemon
