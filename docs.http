@@ -12,12 +12,8 @@ POST http://localhost:3000/api/v2/pokemon
 Content-Type: application/json
 
 {
-  "name": "Pikachu",
-  "description": "Rattata's cousin",
-  "type": "electric",
-  "attack": 55,
-  "defense": 40,
-  "height": 0.4
+  "no": 0,
+  "name": "aaaa"
 }
 
 ### Update a Pokemon
