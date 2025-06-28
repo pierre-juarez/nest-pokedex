@@ -26,4 +26,4 @@ Content-Type: application/json
 }
 
 ### Delete a Pokemon
-DELETE http://localhost:3000/api/v2/pokemon/1
+DELETE http://localhost:3000/api/v2/pokemon/685cccd9e2cd781ea5082e27
