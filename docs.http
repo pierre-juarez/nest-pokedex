@@ -2,7 +2,7 @@
 GET http://localhost:3000
 
 ### All Pokemons
-GET http://localhost:3000/api/v2/pokemon?offset=2&limit=2
+GET http://localhost:3000/api/v2/pokemon
 
 ### Get a Pokemon by ID
 GET http://localhost:3000/api/v2/pokemon/300
