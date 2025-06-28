@@ -17,16 +17,12 @@ Content-Type: application/json
 }
 
 ### Update a Pokemon
-PATCH http://localhost:3000/api/v2/pokemon/1
+PATCH http://localhost:3000/api/v2/pokemon/685cc8e53e58169bd5726923
 Content-Type: application/json
 
 {
-  "name": "Pikachu",
-  "description": "Rattata's cousin",
-  "type": "electric",
-  "attack": 55,
-  "defense": 40,
-  "height": 0.4
+  "no": 2,
+  "name": "Charmeleonsiuuu"
 }
 
 ### Delete a Pokemon
