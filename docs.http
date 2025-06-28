@@ -5,7 +5,7 @@ GET http://localhost:3000
 GET http://localhost:3000/api/v2/pokemon
 
 ### Get a Pokemon by ID
-GET http://localhost:3000/api/v2/pokemon/685cc8e53e58169bd5726923
+GET http://localhost:3000/api/v2/pokemon/300
 
 ### Create a Pokemon
 POST http://localhost:3000/api/v2/pokemon
@@ -27,3 +27,6 @@ Content-Type: application/json
 
 ### Delete a Pokemon
 DELETE http://localhost:3000/api/v2/pokemon/685cccd9e2cd781ea5082e27
+
+### Seed Pokemons
+GET http://localhost:3000/api/v2/seed
