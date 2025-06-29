@@ -4,6 +4,9 @@ GET http://localhost:3000
 ### All Pokemons
 GET http://localhost:3000/api/v2/pokemon
 
+### All Pokemons - PROD
+GET https://nest-pokedex-production-326d.up.railway.app/api/v2/pokemon
+
 ### Get a Pokemon by ID
 GET http://localhost:3000/api/v2/pokemon/300
 
